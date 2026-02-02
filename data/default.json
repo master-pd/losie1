@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "auto_backup": true,
+    "auto_reply": true,
+    "auto_react": true,
+    "backup_photos": true,
+    "backup_videos": true,
+    "backup_documents": true,
+    "backup_text": true,
+    "notify_user": false
+  },
+  "limits": {
+    "max_file_size": 50,
+    "daily_backup_limit": 100,
+    "max_storage_days": 365
+  },
+  "messages": {
+    "backup_started": "✅ Backup started!",
+    "backup_completed": "✅ Backup completed!",
+    "backup_failed": "❌ Backup failed!",
+    "file_too_large": "📁 File is too large!",
+    "daily_limit_reached": "⚠️ Daily backup limit reached!"
+  }
+}
